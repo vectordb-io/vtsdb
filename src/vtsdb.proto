@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package vtsdb;
+
+message Strings {
+  repeated string strings = 1;
+}
+
